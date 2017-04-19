@@ -7,21 +7,55 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F4B9D7661E1FA62600F7CAD8 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B9D7651E1FA62600F7CAD8 /* ProfileViewController.swift */; };
+		F4D2C3501E1E169F00BD0580 /* UITextField+Placeholder.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D2C34F1E1E169F00BD0580 /* UITextField+Placeholder.swift */; };
+		F4D2C3521E1E4B8E00BD0580 /* UINavigationController+Transparent.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D2C3511E1E4B8E00BD0580 /* UINavigationController+Transparent.swift */; };
+		F4D2C3541E1E54C300BD0580 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D2C3531E1E54C300BD0580 /* SignUpViewController.swift */; };
+		F4D2C3561E1E59AE00BD0580 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D2C3551E1E59AE00BD0580 /* WelcomeViewController.swift */; };
+		F4D2C3581E1E851300BD0580 /* ResetPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D2C3571E1E851300BD0580 /* ResetPasswordViewController.swift */; };
 		F4E9C8FB1E013DBC00FD9D7C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4E9C8FA1E013DBC00FD9D7C /* AppDelegate.swift */; };
-		F4E9C8FD1E013DBC00FD9D7C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4E9C8FC1E013DBC00FD9D7C /* ViewController.swift */; };
 		F4E9C9001E013DBC00FD9D7C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4E9C8FE1E013DBC00FD9D7C /* Main.storyboard */; };
 		F4E9C9021E013DBC00FD9D7C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4E9C9011E013DBC00FD9D7C /* Assets.xcassets */; };
 		F4E9C9051E013DBC00FD9D7C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4E9C9031E013DBC00FD9D7C /* LaunchScreen.storyboard */; };
+		F4E9C90D1E013DF800FD9D7C /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4E9C90C1E013DF800FD9D7C /* LoginViewController.swift */; };
+		F4E9C9111E013E4E00FD9D7C /* LineButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4E9C9101E013E4E00FD9D7C /* LineButton.swift */; };
+		F4E9C91E1E0153E000FD9D7C /* Rubik-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F4E9C9141E0153E000FD9D7C /* Rubik-Black.ttf */; };
+		F4E9C91F1E0153E000FD9D7C /* Rubik-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F4E9C9151E0153E000FD9D7C /* Rubik-BlackItalic.ttf */; };
+		F4E9C9201E0153E000FD9D7C /* Rubik-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F4E9C9161E0153E000FD9D7C /* Rubik-Bold.ttf */; };
+		F4E9C9211E0153E000FD9D7C /* Rubik-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F4E9C9171E0153E000FD9D7C /* Rubik-BoldItalic.ttf */; };
+		F4E9C9221E0153E000FD9D7C /* Rubik-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F4E9C9181E0153E000FD9D7C /* Rubik-Italic.ttf */; };
+		F4E9C9231E0153E000FD9D7C /* Rubik-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F4E9C9191E0153E000FD9D7C /* Rubik-Light.ttf */; };
+		F4E9C9241E0153E000FD9D7C /* Rubik-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F4E9C91A1E0153E000FD9D7C /* Rubik-LightItalic.ttf */; };
+		F4E9C9251E0153E000FD9D7C /* Rubik-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F4E9C91B1E0153E000FD9D7C /* Rubik-Medium.ttf */; };
+		F4E9C9261E0153E000FD9D7C /* Rubik-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F4E9C91C1E0153E000FD9D7C /* Rubik-MediumItalic.ttf */; };
+		F4E9C9271E0153E000FD9D7C /* Rubik-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F4E9C91D1E0153E000FD9D7C /* Rubik-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F4B9D7651E1FA62600F7CAD8 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		F4D2C34F1E1E169F00BD0580 /* UITextField+Placeholder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITextField+Placeholder.swift"; sourceTree = "<group>"; };
+		F4D2C3511E1E4B8E00BD0580 /* UINavigationController+Transparent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UINavigationController+Transparent.swift"; sourceTree = "<group>"; };
+		F4D2C3531E1E54C300BD0580 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		F4D2C3551E1E59AE00BD0580 /* WelcomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		F4D2C3571E1E851300BD0580 /* ResetPasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResetPasswordViewController.swift; sourceTree = "<group>"; };
 		F4E9C8F71E013DBC00FD9D7C /* FirebaseDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirebaseDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4E9C8FA1E013DBC00FD9D7C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F4E9C8FC1E013DBC00FD9D7C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F4E9C8FF1E013DBC00FD9D7C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F4E9C9011E013DBC00FD9D7C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F4E9C9041E013DBC00FD9D7C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F4E9C9061E013DBC00FD9D7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4E9C90C1E013DF800FD9D7C /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		F4E9C9101E013E4E00FD9D7C /* LineButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LineButton.swift; sourceTree = "<group>"; };
+		F4E9C9141E0153E000FD9D7C /* Rubik-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Black.ttf"; sourceTree = "<group>"; };
+		F4E9C9151E0153E000FD9D7C /* Rubik-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-BlackItalic.ttf"; sourceTree = "<group>"; };
+		F4E9C9161E0153E000FD9D7C /* Rubik-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Bold.ttf"; sourceTree = "<group>"; };
+		F4E9C9171E0153E000FD9D7C /* Rubik-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-BoldItalic.ttf"; sourceTree = "<group>"; };
+		F4E9C9181E0153E000FD9D7C /* Rubik-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Italic.ttf"; sourceTree = "<group>"; };
+		F4E9C9191E0153E000FD9D7C /* Rubik-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Light.ttf"; sourceTree = "<group>"; };
+		F4E9C91A1E0153E000FD9D7C /* Rubik-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-LightItalic.ttf"; sourceTree = "<group>"; };
+		F4E9C91B1E0153E000FD9D7C /* Rubik-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Medium.ttf"; sourceTree = "<group>"; };
+		F4E9C91C1E0153E000FD9D7C /* Rubik-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-MediumItalic.ttf"; sourceTree = "<group>"; };
+		F4E9C91D1E0153E000FD9D7C /* Rubik-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Regular.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +88,63 @@
 		F4E9C8F91E013DBC00FD9D7C /* FirebaseDemo */ = {
 			isa = PBXGroup;
 			children = (
+				F4E9C9121E0153BD00FD9D7C /* Resources */,
+				F4E9C90F1E013E2200FD9D7C /* Controller */,
+				F4E9C90E1E013E0C00FD9D7C /* View */,
 				F4E9C8FA1E013DBC00FD9D7C /* AppDelegate.swift */,
-				F4E9C8FC1E013DBC00FD9D7C /* ViewController.swift */,
 				F4E9C8FE1E013DBC00FD9D7C /* Main.storyboard */,
 				F4E9C9011E013DBC00FD9D7C /* Assets.xcassets */,
 				F4E9C9031E013DBC00FD9D7C /* LaunchScreen.storyboard */,
 				F4E9C9061E013DBC00FD9D7C /* Info.plist */,
 			);
 			path = FirebaseDemo;
+			sourceTree = "<group>";
+		};
+		F4E9C90E1E013E0C00FD9D7C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F4E9C9101E013E4E00FD9D7C /* LineButton.swift */,
+				F4D2C34F1E1E169F00BD0580 /* UITextField+Placeholder.swift */,
+				F4D2C3511E1E4B8E00BD0580 /* UINavigationController+Transparent.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		F4E9C90F1E013E2200FD9D7C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F4E9C90C1E013DF800FD9D7C /* LoginViewController.swift */,
+				F4D2C3531E1E54C300BD0580 /* SignUpViewController.swift */,
+				F4D2C3551E1E59AE00BD0580 /* WelcomeViewController.swift */,
+				F4D2C3571E1E851300BD0580 /* ResetPasswordViewController.swift */,
+				F4B9D7651E1FA62600F7CAD8 /* ProfileViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		F4E9C9121E0153BD00FD9D7C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F4E9C9131E0153C700FD9D7C /* Fonts */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		F4E9C9131E0153C700FD9D7C /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				F4E9C9141E0153E000FD9D7C /* Rubik-Black.ttf */,
+				F4E9C9151E0153E000FD9D7C /* Rubik-BlackItalic.ttf */,
+				F4E9C9161E0153E000FD9D7C /* Rubik-Bold.ttf */,
+				F4E9C9171E0153E000FD9D7C /* Rubik-BoldItalic.ttf */,
+				F4E9C9181E0153E000FD9D7C /* Rubik-Italic.ttf */,
+				F4E9C9191E0153E000FD9D7C /* Rubik-Light.ttf */,
+				F4E9C91A1E0153E000FD9D7C /* Rubik-LightItalic.ttf */,
+				F4E9C91B1E0153E000FD9D7C /* Rubik-Medium.ttf */,
+				F4E9C91C1E0153E000FD9D7C /* Rubik-MediumItalic.ttf */,
+				F4E9C91D1E0153E000FD9D7C /* Rubik-Regular.ttf */,
+			);
+			name = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -92,7 +175,7 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0820;
 				LastUpgradeCheck = 0820;
-				ORGANIZATIONNAME = AppCoda;
+				ORGANIZATIONNAME = "355 Berry Street";
 				TargetAttributes = {
 					F4E9C8F61E013DBC00FD9D7C = {
 						CreatedOnToolsVersion = 8.2;
@@ -123,8 +206,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4E9C91F1E0153E000FD9D7C /* Rubik-BlackItalic.ttf in Resources */,
+				F4E9C9241E0153E000FD9D7C /* Rubik-LightItalic.ttf in Resources */,
+				F4E9C9201E0153E000FD9D7C /* Rubik-Bold.ttf in Resources */,
 				F4E9C9051E013DBC00FD9D7C /* LaunchScreen.storyboard in Resources */,
 				F4E9C9021E013DBC00FD9D7C /* Assets.xcassets in Resources */,
+				F4E9C9231E0153E000FD9D7C /* Rubik-Light.ttf in Resources */,
+				F4E9C9221E0153E000FD9D7C /* Rubik-Italic.ttf in Resources */,
+				F4E9C9261E0153E000FD9D7C /* Rubik-MediumItalic.ttf in Resources */,
+				F4E9C91E1E0153E000FD9D7C /* Rubik-Black.ttf in Resources */,
+				F4E9C9211E0153E000FD9D7C /* Rubik-BoldItalic.ttf in Resources */,
+				F4E9C9271E0153E000FD9D7C /* Rubik-Regular.ttf in Resources */,
+				F4E9C9251E0153E000FD9D7C /* Rubik-Medium.ttf in Resources */,
 				F4E9C9001E013DBC00FD9D7C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -136,8 +229,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F4E9C8FD1E013DBC00FD9D7C /* ViewController.swift in Sources */,
+				F4D2C3581E1E851300BD0580 /* ResetPasswordViewController.swift in Sources */,
+				F4D2C3521E1E4B8E00BD0580 /* UINavigationController+Transparent.swift in Sources */,
+				F4D2C3561E1E59AE00BD0580 /* WelcomeViewController.swift in Sources */,
+				F4D2C3541E1E54C300BD0580 /* SignUpViewController.swift in Sources */,
+				F4E9C90D1E013DF800FD9D7C /* LoginViewController.swift in Sources */,
 				F4E9C8FB1E013DBC00FD9D7C /* AppDelegate.swift in Sources */,
+				F4B9D7661E1FA62600F7CAD8 /* ProfileViewController.swift in Sources */,
+				F4E9C9111E013E4E00FD9D7C /* LineButton.swift in Sources */,
+				F4D2C3501E1E169F00BD0580 /* UITextField+Placeholder.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,7 +362,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = FirebaseDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.appcoda.FirebaseDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.355berrystreet.FirebaseDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -274,7 +374,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = FirebaseDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.appcoda.FirebaseDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.355berrystreet.FirebaseDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -299,6 +399,7 @@
 				F4E9C90B1E013DBC00FD9D7C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

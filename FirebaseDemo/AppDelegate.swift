@@ -2,8 +2,8 @@
 //  AppDelegate.swift
 //  FirebaseDemo
 //
-//  Created by Simon Ng on 14/12/2016.
-//  Copyright © 2016 AppCoda. All rights reserved.
+//  Created by Pablo Mateo Fernández on 02/02/2017.
+//  Copyright © 2017 355 Berry Street S.L. All rights reserved.
 //
 
 import UIKit
@@ -15,7 +15,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        
+        // Set up the style and color of the common UI elements
+        customizeUIStyle()
+        
         return true
     }
 
@@ -44,3 +47,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 }
 
+
+extension AppDelegate {
+    func customizeUIStyle() {
+        
+        // Customize Navigation bar items
+        UIBarButtonItem.appearance(whenContainedInInstancesOf: [UINavigationBar.self]).setTitleTextAttributes([NSFontAttributeName: UIFont(name: "Avenir", size: 16)!, NSForegroundColorAttributeName: UIColor.white], for: UIControlState.normal)
+    }
+}

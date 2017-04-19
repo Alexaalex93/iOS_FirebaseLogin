@@ -290,6 +290,9 @@
                                                         <real key="value" value="25"/>
                                                     </userDefinedRuntimeAttribute>
                                                 </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <action selector="registrarUsuario:" destination="DbA-Ew-C6i" eventType="touchUpInside" id="EmP-v2-8DG"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -474,6 +477,9 @@
                                                 <real key="value" value="25"/>
                                             </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="registarUsuario:" destination="sSG-Xu-loP" eventType="touchUpInside" id="qzY-Q8-kXH"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <constraints>

@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Firebase
 
 class SignUpViewController: UIViewController {
 
@@ -49,5 +50,32 @@ class SignUpViewController: UIViewController {
         // Pass the selected object to the new view controller.
     }
     */
+    @IBAction func registarUsuario(_ sender: AnyObject) {
+        //Validar el input del usuario
+        
+        guard let name = nameTextField.text, name != "",
+        let emailAdress = emailTextField.text, emailAdress != "",
+            let password = passwordTextField.text, password != "" else {
+                //Al menos uno está vacío
+                let alertController = UIAlertController(title: "Error de Registro", message: "Por favor rellena los 3 campos", preferredStyle: .alert)
+                let okAction = UIAlertAction(title: "OK", style: .cancel, handler: nil)
+                alertController.addAction(okAction)
+                present(alertController, animated: true, completion: nil)
+                return
+        }
+        
+        //Registramos al usuario
+        
+        FIRAuth.auth()?.createUser(withEmail: emailAdress, password: password, completion: { (user, error) in
+            if let error = error {
+                let alertController = UIAlertController(title: "Error de Registro", message: error.localizedDescription, preferredStyle: .alert)
+                let okAction = UIAlertAction(title: "OK", style: .cancel, handler: nil)
+                alertController.addAction(okAction)
+                self.present(alertController, animated: true, completion: nil)
+                
+                return
+            }
+        })
+    }
 
 }

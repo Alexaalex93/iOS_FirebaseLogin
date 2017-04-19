@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Firebase
 
 class LoginViewController: UIViewController {
     
@@ -33,6 +34,10 @@ class LoginViewController: UIViewController {
         super.viewWillAppear(animated)
         
         self.title = ""
+    }
+    @IBAction func registrarUsuario(_ sender: AnyObject) {
+        
+        //Validar input del usuario
     }
 
     /*

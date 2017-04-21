@@ -291,7 +291,7 @@
                                                     </userDefinedRuntimeAttribute>
                                                 </userDefinedRuntimeAttributes>
                                                 <connections>
-                                                    <action selector="registrarUsuario:" destination="DbA-Ew-C6i" eventType="touchUpInside" id="EmP-v2-8DG"/>
+                                                    <action selector="login:" destination="DbA-Ew-C6i" eventType="touchUpInside" id="1wq-dT-l4l"/>
                                                 </connections>
                                             </button>
                                         </subviews>
@@ -536,7 +536,7 @@
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="285"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="dad-QL-ooe" id="EKn-Ie-hyM">
-                                            <frame key="frameInset" width="375" height="284.5"/>
+                                            <frame key="frameInset" width="375" height="284"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="5s9sei-hfza-vincent-guth" translatesAutoresizingMaskIntoConstraints="NO" id="PzJ-gw-qsJ"/>
@@ -624,7 +624,7 @@
                                         <rect key="frame" x="0.0" y="285" width="375" height="285"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="dSz-2N-CTP" id="119-cQ-hU6">
-                                            <frame key="frameInset" width="375" height="284.5"/>
+                                            <frame key="frameInset" width="375" height="284"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="_fjegpi89au-thomas-shellberg" translatesAutoresizingMaskIntoConstraints="NO" id="S0m-c4-FgN"/>
@@ -712,7 +712,7 @@
                                         <rect key="frame" x="0.0" y="570" width="375" height="285"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="avW-ET-foX" id="4SZ-FW-9qN">
-                                            <frame key="frameInset" width="375" height="284.5"/>
+                                            <frame key="frameInset" width="375" height="284"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bclr95glx6k-vashishtha-jogi" translatesAutoresizingMaskIntoConstraints="NO" id="E45-Qb-Xw4"/>
@@ -800,7 +800,7 @@
                                         <rect key="frame" x="0.0" y="855" width="375" height="285"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="78G-gQ-n6a" id="aho-0o-KCN">
-                                            <frame key="frameInset" width="375" height="284.5"/>
+                                            <frame key="frameInset" width="375" height="284"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="nkeh30uoe8o-joshua-earle" translatesAutoresizingMaskIntoConstraints="NO" id="Mfw-kz-bQa"/>
@@ -888,7 +888,7 @@
                                         <rect key="frame" x="0.0" y="1140" width="375" height="285"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="keF-VD-LqX" id="icU-ZY-40I">
-                                            <frame key="frameInset" width="375" height="284.5"/>
+                                            <frame key="frameInset" width="375" height="284"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="62v7ntlkgl8-vincent-guth" translatesAutoresizingMaskIntoConstraints="NO" id="Rkq-0e-cbh"/>
@@ -976,7 +976,7 @@
                                         <rect key="frame" x="0.0" y="1425" width="375" height="285"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Zf6-3j-aFM" id="yMw-a2-ltW">
-                                            <frame key="frameInset" width="375" height="284.5"/>
+                                            <frame key="frameInset" width="375" height="284"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="t4waa0t3tvs-james-lafa" translatesAutoresizingMaskIntoConstraints="NO" id="nuN-Tb-rlD"/>
@@ -1064,7 +1064,7 @@
                                         <rect key="frame" x="0.0" y="1710" width="375" height="285"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="thz-xW-fdh" id="dpD-RV-SJ5">
-                                            <frame key="frameInset" width="375" height="284.5"/>
+                                            <frame key="frameInset" width="375" height="284"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="zsmgnjyrhrm-nelly-volkovich" translatesAutoresizingMaskIntoConstraints="NO" id="GO2-gW-uZv"/>
@@ -1237,6 +1237,9 @@
                                                 <real key="value" value="25"/>
                                             </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="resetPassBtn:" destination="F7V-xv-5Jk" eventType="touchUpInside" id="Fzb-Vi-fXG"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <constraints>
@@ -1270,7 +1273,7 @@
         <!--Navigation Controller-->
         <scene sceneID="74w-UH-sF2">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="egJ-Rz-ft8" sceneMemberID="viewController">
+                <navigationController storyboardIdentifier="WelcomeView" automaticallyAdjustsScrollViewInsets="NO" id="egJ-Rz-ft8" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="GMv-Lh-Cd9">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
@@ -1290,7 +1293,7 @@
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Ahu-et-QBf" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="d6k-cw-sXc">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="d6k-cw-sXc">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -1308,7 +1311,7 @@
             <objects>
                 <navigationController storyboardIdentifier="MainView" automaticallyAdjustsScrollViewInsets="NO" id="AGh-Ef-j2s" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="iex-AH-dLW">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="iex-AH-dLW">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -1377,6 +1380,9 @@
                                         <real key="value" value="25"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="logout:" destination="EDe-KG-HUV" eventType="touchUpInside" id="4gL-WY-dsb"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -1418,7 +1424,7 @@
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="ejw-jo-3XU" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="pDL-kK-62T">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="pDL-kK-62T">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>

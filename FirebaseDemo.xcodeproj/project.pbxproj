@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0926249A1EA7628100FE092A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 092624991EA7628100FE092A /* GoogleService-Info.plist */; };
+		09C247361EA9FEF30031FFB8 /* Localization.strings in Resources */ = {isa = PBXBuildFile; fileRef = 09C247351EA9FEF30031FFB8 /* Localization.strings */; };
 		F4B9D7661E1FA62600F7CAD8 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B9D7651E1FA62600F7CAD8 /* ProfileViewController.swift */; };
 		F4D2C3501E1E169F00BD0580 /* UITextField+Placeholder.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D2C34F1E1E169F00BD0580 /* UITextField+Placeholder.swift */; };
 		F4D2C3521E1E4B8E00BD0580 /* UINavigationController+Transparent.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D2C3511E1E4B8E00BD0580 /* UINavigationController+Transparent.swift */; };
@@ -35,6 +36,9 @@
 
 /* Begin PBXFileReference section */
 		092624991EA7628100FE092A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		09C247331EA9FEBF0031FFB8 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Main.strings; sourceTree = "<group>"; };
+		09C247341EA9FEBF0031FFB8 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		09C247351EA9FEF30031FFB8 /* Localization.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = Localization.strings; path = ../Localization.strings; sourceTree = "<group>"; };
 		46698670D6E71883358A9C66 /* Pods-FirebaseDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirebaseDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-FirebaseDemo/Pods-FirebaseDemo.release.xcconfig"; sourceTree = "<group>"; };
 		C88CA53382A0EF412DC0D830 /* Pods_FirebaseDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FirebaseDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4B9D7651E1FA62600F7CAD8 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
@@ -122,6 +126,7 @@
 				F4E9C8FE1E013DBC00FD9D7C /* Main.storyboard */,
 				F4E9C9011E013DBC00FD9D7C /* Assets.xcassets */,
 				F4E9C9031E013DBC00FD9D7C /* LaunchScreen.storyboard */,
+				09C247351EA9FEF30031FFB8 /* Localization.strings */,
 				F4E9C9061E013DBC00FD9D7C /* Info.plist */,
 			);
 			path = FirebaseDemo;
@@ -243,6 +248,7 @@
 				F4E9C9021E013DBC00FD9D7C /* Assets.xcassets in Resources */,
 				F4E9C9231E0153E000FD9D7C /* Rubik-Light.ttf in Resources */,
 				F4E9C9221E0153E000FD9D7C /* Rubik-Italic.ttf in Resources */,
+				09C247361EA9FEF30031FFB8 /* Localization.strings in Resources */,
 				F4E9C9261E0153E000FD9D7C /* Rubik-MediumItalic.ttf in Resources */,
 				F4E9C91E1E0153E000FD9D7C /* Rubik-Black.ttf in Resources */,
 				F4E9C9211E0153E000FD9D7C /* Rubik-BoldItalic.ttf in Resources */,
@@ -327,6 +333,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				F4E9C8FF1E013DBC00FD9D7C /* Base */,
+				09C247331EA9FEBF0031FFB8 /* es */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -335,6 +342,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				F4E9C9041E013DBC00FD9D7C /* Base */,
+				09C247341EA9FEBF0031FFB8 /* es */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -346,6 +354,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -396,6 +405,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";

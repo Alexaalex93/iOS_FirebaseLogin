@@ -1,0 +1,114 @@
+
+/* Class = "UILabel"; text = "Vashishtha Jogi"; ObjectID = "6Dq-7Z-LnG"; */
+"6Dq-7Z-LnG.text" = "Vashishtha Jogi";
+
+/* Class = "UITextField"; placeholder = "PASSWORD"; ObjectID = "9n5-Nq-llN"; */
+"9n5-Nq-llN.placeholder" = "PASSWORD";
+
+/* Class = "UIButton"; normalTitle = "SIGN UP"; ObjectID = "Ao3-F6-1Bb"; */
+"Ao3-F6-1Bb.normalTitle" = "SIGN UP";
+
+/* Class = "UILabel"; text = "Bessie Lloyd"; ObjectID = "BPl-jM-Qr1"; */
+"BPl-jM-Qr1.text" = "Bessie Lloyd";
+
+/* Class = "UILabel"; text = "Thomas Shellberg"; ObjectID = "Bc1-JY-0Vb"; */
+"Bc1-JY-0Vb.text" = "Thomas Shellberg";
+
+/* Class = "UINavigationItem"; title = "Sign Up"; ObjectID = "CDU-Zx-PjT"; */
+"CDU-Zx-PjT.title" = "Sign Up";
+
+/* Class = "UIButton"; normalTitle = "SIGN IN WITH GOOGLE"; ObjectID = "Cwt-vQ-6nY"; */
+"Cwt-vQ-6nY.normalTitle" = "SIGN IN WITH GOOGLE";
+
+/* Class = "UILabel"; text = "Vincent Guth"; ObjectID = "DKx-IB-s7k"; */
+"DKx-IB-s7k.text" = "Vincent Guth";
+
+/* Class = "UIButton"; normalTitle = "SIGN IN WITH EMAIL"; ObjectID = "EOx-bQ-brQ"; */
+"EOx-bQ-brQ.normalTitle" = "SIGN IN WITH EMAIL";
+
+/* Class = "UIButton"; normalTitle = "240"; ObjectID = "EjN-nC-WYc"; */
+"EjN-nC-WYc.normalTitle" = "240";
+
+/* Class = "UILabel"; text = "Vincent Guth"; ObjectID = "ExL-St-lci"; */
+"ExL-St-lci.text" = "Vincent Guth";
+
+/* Class = "UIButton"; normalTitle = "459"; ObjectID = "Gof-Qt-UP9"; */
+"Gof-Qt-UP9.normalTitle" = "459";
+
+/* Class = "UITextField"; placeholder = "EMAIL"; ObjectID = "HzL-Un-hEA"; */
+"HzL-Un-hEA.placeholder" = "EMAIL";
+
+/* Class = "UINavigationItem"; title = "Northern Lights"; ObjectID = "Im1-fS-1Ts"; */
+"Im1-fS-1Ts.title" = "Northern Lights";
+
+/* Class = "UILabel"; text = "Nellyn Volkovich"; ObjectID = "IzW-1Z-dIU"; */
+"IzW-1Z-dIU.text" = "Nellyn Volkovich";
+
+/* Class = "UIButton"; normalTitle = "85"; ObjectID = "Te9-qF-emS"; */
+"Te9-qF-emS.normalTitle" = "85";
+
+/* Class = "UIButton"; normalTitle = "RESET MY PASSWORD"; ObjectID = "Tmp-iJ-lfZ"; */
+"Tmp-iJ-lfZ.normalTitle" = "RESET MY PASSWORD";
+
+/* Class = "UITextField"; placeholder = "ENTER YOUR PASSWORD"; ObjectID = "Ttx-xB-VnP"; */
+"Ttx-xB-VnP.placeholder" = "ENTER YOUR PASSWORD";
+
+/* Class = "UINavigationItem"; title = "Log In"; ObjectID = "Uba-Cz-hva"; */
+"Uba-Cz-hva.title" = "Log In";
+
+/* Class = "UIButton"; normalTitle = "LOGOUT"; ObjectID = "XQg-tF-hlF"; */
+"XQg-tF-hlF.normalTitle" = "LOGOUT";
+
+/* Class = "UIButton"; normalTitle = "N"; ObjectID = "XdZ-TZ-7EF"; */
+"XdZ-TZ-7EF.normalTitle" = "N";
+
+/* Class = "UILabel"; text = "323 photos"; ObjectID = "Zx3-8e-RGX"; */
+"Zx3-8e-RGX.text" = "323 photos";
+
+/* Class = "UITextField"; placeholder = "NAME"; ObjectID = "bQP-T0-b6X"; */
+"bQP-T0-b6X.placeholder" = "NAME";
+
+/* Class = "UIButton"; normalTitle = "240"; ObjectID = "ed8-F4-q6z"; */
+"ed8-F4-q6z.normalTitle" = "240";
+
+/* Class = "UIButton"; normalTitle = "654"; ObjectID = "ej9-hf-b4W"; */
+"ej9-hf-b4W.normalTitle" = "654";
+
+/* Class = "UIButton"; normalTitle = "CREATE ACCOUNT"; ObjectID = "hb4-MV-Vfz"; */
+"hb4-MV-Vfz.normalTitle" = "CREATE ACCOUNT";
+
+/* Class = "UIBarButtonItem"; title = "Cancel"; ObjectID = "iDU-Gi-dfH"; */
+"iDU-Gi-dfH.title" = "Cancel";
+
+/* Class = "UILabel"; text = "Welcome to Northern Lights."; ObjectID = "j7Q-7q-pqd"; */
+"j7Q-7q-pqd.text" = "Welcome to Northern Lights.";
+
+/* Class = "UIButton"; normalTitle = "33"; ObjectID = "jmC-wQ-nHT"; */
+"jmC-wQ-nHT.normalTitle" = "33";
+
+/* Class = "UITextField"; placeholder = "ENTER YOUR EMAIL"; ObjectID = "m8k-2y-DW1"; */
+"m8k-2y-DW1.placeholder" = "ENTER YOUR EMAIL";
+
+/* Class = "UINavigationItem"; title = "My Profile"; ObjectID = "oDE-Aq-DAq"; */
+"oDE-Aq-DAq.title" = "My Profile";
+
+/* Class = "UILabel"; text = "James Lafa"; ObjectID = "oTf-8g-STV"; */
+"oTf-8g-STV.text" = "James Lafa";
+
+/* Class = "UIButton"; normalTitle = "FORGOT PASSWORD?"; ObjectID = "pd8-CP-HGQ"; */
+"pd8-CP-HGQ.normalTitle" = "FORGOT PASSWORD?";
+
+/* Class = "UIButton"; normalTitle = "SIGN IN WITH FACEBOOK"; ObjectID = "r12-MH-aLP"; */
+"r12-MH-aLP.normalTitle" = "SIGN IN WITH FACEBOOK";
+
+/* Class = "UITextField"; placeholder = "EMAIL"; ObjectID = "sbo-rC-xVg"; */
+"sbo-rC-xVg.placeholder" = "EMAIL";
+
+/* Class = "UIButton"; normalTitle = "LOG IN"; ObjectID = "tkr-NB-A7f"; */
+"tkr-NB-A7f.normalTitle" = "LOG IN";
+
+/* Class = "UIButton"; normalTitle = "727"; ObjectID = "yNz-22-vIf"; */
+"yNz-22-vIf.normalTitle" = "727";
+
+/* Class = "UILabel"; text = "Joshua Earle"; ObjectID = "zzN-mw-WyO"; */
+"zzN-mw-WyO.text" = "Joshua Earle";

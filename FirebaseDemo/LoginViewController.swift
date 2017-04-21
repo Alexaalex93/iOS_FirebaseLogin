@@ -35,9 +35,62 @@ class LoginViewController: UIViewController {
         
         self.title = ""
     }
-    @IBAction func registrarUsuario(_ sender: AnyObject) {
+
+    @IBAction func login(_ sender: AnyObject) {
         
-        //Validar input del usuario
+        //Validar los datos
+        guard let emailAddress = emailTextField.text, emailAddress != "",
+            let password = passwordTextField.text, password != "" else {
+                let alertController = UIAlertController(title: "Error de login", message: "Rellena los campos", preferredStyle: .alert)
+                let okAction = UIAlertAction(title: "OK", style: .cancel, handler: nil)
+                alertController.addAction(okAction)
+                present(alertController, animated: true, completion: nil)
+                return
+        }
+        
+        //Conectamos con Firebase para autenticación
+        //Esto es para hacerlo con google, facebook twiter..
+        //FIRAuth.auth()?.signIn(with: <#T##FIRAuthCredential#>, completion: <#T##FIRAuthResultCallback?##FIRAuthResultCallback?##(FIRUser?, Error?) -> Void#>)
+        
+        FIRAuth.auth()?.signIn(withEmail: emailAddress, password: password, completion: { (user, error) in
+            if let error = error {
+            
+                let alertController = UIAlertController(title: "Error de login", message: error.localizedDescription, preferredStyle: .alert)
+                let okAction = UIAlertAction(title: "OK", style: .cancel, handler: nil)
+                alertController.addAction(okAction)
+                self.present(alertController, animated: true, completion: nil)
+                return
+        }
+            
+            //Comprobar que el email ha sido verificado
+            guard let currentUser = user, currentUser.isEmailVerified else {
+                let alertController = UIAlertController(title: "Login Error", message: "No has confirmado tu correo electronico. Hazlo", preferredStyle: .alert)
+                let okAction = UIAlertAction(title: "Reenviar email", style: .default, handler: { (action) in
+                    user?.sendEmailVerification(completion: nil)
+                })
+                let cancelAction = UIAlertAction(title: "Cancelar", style: .cancel, handler: nil)
+                alertController.addAction(okAction)
+                alertController.addAction(cancelAction)
+                self.present(alertController, animated: true, completion: nil)
+                return
+
+            }
+            
+            
+            
+            //Ocultar el teclado
+            self.view.endEditing(true)
+            
+            //Le enviamos a la pantalla principal
+        if let viewController = self.storyboard?.instantiateViewController(withIdentifier: "MainView") {
+            //Con esta linea de codigo le decimos a la aplicacion que cambie el view controller principal
+            //
+            UIApplication.shared.keyWindow?.rootViewController = viewController //Como tenemos un Navigation COntroller que no está enlazado utilizamos
+            self.dismiss(animated: true, completion: nil)
+        }
+    })
+
+
     }
 
     /*

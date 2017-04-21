@@ -75,6 +75,33 @@ class SignUpViewController: UIViewController {
                 
                 return
             }
+        
+            //Guardar el nombre del usuario
+            if let changeRequest = FIRAuth.auth()?.currentUser?.profileChangeRequest() {
+                changeRequest.displayName = name
+                
+                
+                changeRequest.commitChanges(completion: { (error) in
+                    if let error = error {
+                        print("Error al modificar el nombre: \(error.localizedDescription)")
+                    }
+                })
+            }
+            
+            //Ocultar el teclado
+            self.view.endEditing(true)
+            
+            
+            //Enviar un email de verificacion
+            user?.sendEmailVerification(completion: nil)
+            let alertController = UIAlertController(title: "Verificacion de Email", message: "Te hemos enviado un correo. Debes verificarlo antes de poder acceder", preferredStyle: .alert)
+            let okAction = UIAlertAction(title: "Ok", style: .cancel, handler: { (action) in
+                self.dismiss(animated: true, completion: nil)
+            })
+            alertController.addAction(okAction)
+            self.present(alertController, animated: true, completion: nil)
+
+            
         })
     }
 
